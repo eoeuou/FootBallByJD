@@ -10,7 +10,7 @@ var GameLayer = cc.Layer.extend({
     TAG_DOOR:4,
 
     havePcMouseDown:false,
-    rotationSpeed:11,
+    rotationSpeed:51,
 
     MIN_ROTATION: - 135,
     MAX_ROTATION: -45,
@@ -127,7 +127,7 @@ var GameLayer = cc.Layer.extend({
 
     ready:function()
     {
-        this.schedule(this.update,0.016);
+        this.schedule(this.update,0.0001);
     },
     update:function()
     {
