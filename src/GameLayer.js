@@ -62,7 +62,7 @@ var GameLayer = cc.Layer.extend({
             ball.setTag(this.TAG_Ball);
 
 
-            var label = cc.LabelTTF.create("伙计么看这儿！！\n你认为我会告诉你鼠标按着不动瞄准,\n松开射门这句话么？","Microsoft Yahei Font",25);
+            var label = cc.LabelTTF.create("伙计们看这儿！！\n你认为我会告诉你鼠标按着不动瞄准,\n松开射门这句话么？","Microsoft Yahei Font",25);
             label.setPosition(cc.p(winSize.width/2,70));
             label.setColor(cc.c3b(255,0,0));
             this.addChild(label);
